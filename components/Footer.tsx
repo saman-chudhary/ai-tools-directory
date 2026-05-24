@@ -53,9 +53,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-muted">
+        <div className="border-t border-border pt-6 text-center text-xs text-muted">
           <p>© {new Date().getFullYear()} AITools.directory — Built with Next.js & Vercel</p>
-          <p className="font-mono">A portfolio project</p>
         </div>
       </div>
     </footer>
